@@ -28,12 +28,14 @@ HG19 = GenomeLength(join(here, "../genome/hg19.txt"), genome_name="hg19")
 HG38 = GenomeLength(join(here, "../genome/hg38.txt"), genome_name="hg38")
 MM9 = GenomeLength(join(here, "../genome/mm9.txt"), genome_name="mm9")
 MM10 = GenomeLength(join(here, "../genome/mm10.txt"), genome_name="mm10")
+DM6 = GenomeLength(join(here, "../genome/dm6.txt"), genome_name="dm6")
 
 BUILT_IN_GENOMES = {
     'hg19': HG19,
     'hg38': HG38,
     'mm9': MM9,
     'mm10': MM10,
+    'dm6' : DM6,
 }
 
 FEATURES_STACK_NAME = "__COOLBOX_FEATURE_STACK__"
